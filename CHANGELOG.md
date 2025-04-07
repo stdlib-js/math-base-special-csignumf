@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-02)
+## Unreleased (2025-04-07)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`9b72f0c`](https://github.com/stdlib-js/stdlib/commit/9b72f0cc9ae1a8fe839c8fc873bc3cd7b68dcb76) - **feat:** add `math/base/special/csignumf` [(#6361)](https://github.com/stdlib-js/stdlib/pull/6361) _(by Karan Anand, Athan Reines, stdlib-bot)_
 
 </details>
