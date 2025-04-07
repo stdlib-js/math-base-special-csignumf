@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,18 +16,22 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
-* Evaluate the signum function of a single-precision floating-point complex number.
+* Evaluates the signum function of a single-precision complex floating-point number.
 *
-* @module @stdlib/math-base-special-csignumf
+* @param z - input value
+* @returns result
 *
 * @example
 * var Complex64 = require( '@stdlib/complex-float32-ctor' );
 * var real = require( '@stdlib/complex-float32-real' );
 * var imag = require( '@stdlib/complex-float32-imag' );
-* var csignumf = require( '@stdlib/math-base-special-csignumf' );
 *
 * var v = csignumf( new Complex64( -4.2, 5.5 ) );
 * // returns <Complex64>
@@ -37,31 +41,10 @@
 *
 * var im = imag( v );
 * // returns ~0.795
-*
-* v = csignumf( new Complex64( 0.0, 0.0 ) );
-* // returns <Complex64>
-*
-* re = real( v );
-* // returns 0.0
-*
-* im = imag( v );
-* // returns 0.0
-*
-* v = csignumf( new Complex64( NaN, NaN ) );
-* // returns <Complex64>
-*
-* re = real( v );
-* // returns NaN
-*
-* im = imag( v );
-* // returns NaN
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function csignumf( z: Complex64 ): Complex64;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = csignumf;
