@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-16)
+## Unreleased (2025-12-31)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`56a4f52`](https://github.com/stdlib-js/stdlib/commit/56a4f52f455a60af0b56028aabc1aea7628ee1df) - **chore:** update meta data _(by Athan Reines)_
 -   [`95c53cf`](https://github.com/stdlib-js/stdlib/commit/95c53cf567009172f1105fda7228717e609e7ff5) - **docs:** improve doctests for complex number instances in `math/base/special/csignumf` [(#9042)](https://github.com/stdlib-js/stdlib/pull/9042) _(by Prajjwal Bajpai, Athan Reines)_
 -   [`c6b78ee`](https://github.com/stdlib-js/stdlib/commit/c6b78ee29d68da5693c4230f6d6a8763be053b56) - **chore:** add structured package data for `math/base/special/csignumf` [(#8775)](https://github.com/stdlib-js/stdlib/pull/8775) _(by Aman Singh)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
