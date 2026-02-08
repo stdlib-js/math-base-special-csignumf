@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import csignumf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csignumf@esm/index.mjs';
+import csignumf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csignumf@v0.1.1-esm/index.mjs';
 ```
 
 #### csignumf( z )
@@ -99,7 +99,7 @@ v = csignumf( new Complex64( NaN, NaN ) );
 
 var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform' ).factory;
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
-import csignumf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csignumf@esm/index.mjs';
+import csignumf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-csignumf@v0.1.1-esm/index.mjs';
 
 var rand = uniform( -50.0, 50.0 );
 
